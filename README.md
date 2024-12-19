@@ -20,7 +20,8 @@ CybInject v1 is a penetration testing practice machine designed to help you test
 
 1. **Download the OVA file**: 
    - Obtain the `CybInject.ova` file from the repository or any other source you have.
-   ``` git clone https://github.com/Nuru1d33n/CybInject ```
+   - https://drive.google.com/file/d/1DoNe9Go579Q6k0WASBGD0bxklxr-7ypv/view?pli=1
+     
 2. **Import the OVA file into VirtualBox**: 
    - Open VirtualBox and click on `File > Import Appliance`.
    - Select the `CybInject.ova` file from your local machine.
