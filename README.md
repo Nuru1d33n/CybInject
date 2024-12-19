@@ -14,7 +14,7 @@ CybInject v1 is a penetration testing practice machine designed to help you test
 - **OS**: Linux, macOS, or Windows
 - **RAM**: Minimum of 1 GB recommended
 - **CPU**: 2 cores or more
-- **Disk Space**: Minimum of 5 GB
+- **Disk Space**: Minimum of 2 GB
 
 ### Installation Instructions
 
@@ -34,7 +34,7 @@ CybInject v1 is a penetration testing practice machine designed to help you test
 
 If you encounter the error:
 ```
-Error opening the OVA file '/path/to/CybInject.ova' (VERR_ACCESS_DENIED).
+Error opening the OVA file 'CybInject.ova' (VERR_ACCESS_DENIED).
 Result Code: E_ACCESSDENIED (0X80070005)
 Component: ApplianceWrap
 Interface: IAppliance {86a98347-7619-41aa-aece-b21ac5c1a7e6}
@@ -49,7 +49,7 @@ Follow these steps:
 2. Run the following command to change ownership:
 
    ```bash
-   sudo chown your-username:your-username /path/to/CybInject.ova
+   sudo chown your-username:your-username CybInject.ova
    ```
 
    Replace `your-username` with your actual username (e.g., `nurudeen`).
@@ -62,8 +62,8 @@ This will resolve the `E_ACCESSDENIED` error, and you will be able to proceed wi
 
 - **IP Address**: The VM is configured with a private network and can be accessed via `192.168.56.4` (can be modified based on your configuration).
 - **Login Credentials**:
-  - **Username**: `cybinject`
-  - **Password**: `whatismyname`
+  - **Username**: TRY TO CRACK THIS YOURSELF
+  - **Password**: TRY TO CRACK THIS YOUSELF
 
 ### Labs Included
 
@@ -82,12 +82,7 @@ The CybInject machine includes 12 SQL injection labs:
 11. **sql11**  
 12. **sql12**
 
-Each lab focuses on a specific SQL injection vulnerability, allowing you to practice techniques like:
-- Error-based SQL injection
-- Union-based SQL injection
-- Blind SQL injection
-- Time-based SQL injection
-- And more...
+Each lab focuses on a specific SQL injection vulnerability, allowing you to practice techniques 
 
 ### Future Developments
 - **Blocking feature**: The ability to block malicious devices (in future versions).
@@ -95,6 +90,9 @@ Each lab focuses on a specific SQL injection vulnerability, allowing you to prac
 
 ### Contribution
 Feel free to contribute to this project! If you have new SQL injection techniques, vulnerabilities, or improvements to suggest, pull requests are welcome.
+
+### Contact
+Nuruadebileje@gmail.com
 
 ### License
 This project is licensed under the [MIT License](LICENSE).
